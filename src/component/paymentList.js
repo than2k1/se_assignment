@@ -31,7 +31,7 @@ const ListPay = (prop) =>{
             </div>
             <div className='billPrice'>
                 <h6>Kr  {parseFloat(itemSingle.price * itemSingle.amount).toFixed(2)}<span>$</span></h6>
-                <p>[Incl tax 10% = Kr 12.00]</p>
+                <p>[Incl tax 10% = Kr {parseFloat(itemSingle.price * itemSingle.amount*0.1).toFixed(2)}]</p>
             </div>
         </div>
     )

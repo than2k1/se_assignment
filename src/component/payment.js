@@ -28,7 +28,7 @@ const Payment = (prop)=>{
             <h3>Total:</h3>
             <label>
             <h2>Kr {total.toFixed(2)}<span style={{fontSize: '70%', display:'inline'}}>$</span></h2>
-            <span>[Incl tax 10% = Kr 12.0]</span>
+            <span>[Incl tax 10% = Kr {(total*0.1).toFixed(2)}]</span>
             </label>
             </div>
             <div id='paymentBtn'>
