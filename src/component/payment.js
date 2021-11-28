@@ -15,7 +15,7 @@ const Payment = (prop)=>{
         <div className='payment'>
             <div className='myCart'>
             <h1 style={{'fontSize':'22px', 'fontWeight':'600', 'display':'flex', 'justifyContent':'center','alignItems':'center', 'color':'rgb(228 19 23)'}}><FaShoppingCart style={{'fontSize':'22px'}}/>
-            <p style={{'marginLeft':'8px', 'fontSize': '20px', 'fontFamily':'Poppins', 'fontWeight': '600'}}>Your card ({myCard.length})</p></h1>
+            <p style={{'marginLeft':'8px', 'fontSize': '20px', 'fontFamily':'Poppins', 'fontWeight': '600'}}>Your cart ({myCard.length})</p></h1>
             <button className='btn'>DINE IN</button>
             </div>
             <div className='payList'>
