@@ -28,7 +28,7 @@ const Payment = (prop) => {
             <FaShoppingCart style={{ fontSize: "22px" }} />
             <p
               style={{
-                marginLeft: "8px",
+                marginLeft: "8.5px",
                 fontSize: "20px",
                 fontFamily: "Poppins",
                 fontWeight: "600",
